@@ -32,3 +32,9 @@ pythonclasses = [
     "Cuisine Type": ["Buffet", "Fine Dining", "Filipino", "Filipino", "Japanese"]
 }
 ]
+for category in pythonclasses:
+    for key, value in category.items():
+        print(f"{key}:")
+        for item in value:
+            print(f" · {item}")
+    print()
