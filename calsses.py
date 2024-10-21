@@ -1,4 +1,4 @@
-pythonclasses = [
+python_dict = [
 # Product Object
     {
     "Product Name": ["Laptop", "Desk Chair", "Smartwatch", "Notebook", "Running Shoes"],
@@ -20,7 +20,7 @@ pythonclasses = [
 
 # University Object
     {
-    "University Name": ["University of the Philippines", "Ateneo de Manila University", "De La Salle University",
+    "University Name": ["University of the Philippines", "Ateneo De Manila University", "De La Salle University",
                         "University of Santo Tomas", "Polytechnic University of the Philippines"],
     "University Location": ["Quezon City", "Quezon City", "Manila", "Manila", "Manila"]
 },
@@ -32,7 +32,7 @@ pythonclasses = [
     "Cuisine Type": ["Buffet", "Fine Dining", "Filipino", "Filipino", "Japanese"]
 }
 ]
-for category in pythonclasses:
+for category in python_dict:
     for key, value in category.items():
         print(f"{key}:")
         for item in value:
